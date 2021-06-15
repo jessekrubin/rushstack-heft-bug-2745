@@ -1,0 +1,9 @@
+{
+  "extends": "@rushstack/heft-jest-plugin/includes/jest-shared.config.json",
+  "collectCoverage": true,
+  "testEnvironment": "node",
+  "moduleDirectories": ["node_modules", "src"],
+  "moduleNameMapper": {
+    "^jose/(.*)$": "<rootDir>/node_modules/jose/dist/node/cjs/$1"
+  }
+}

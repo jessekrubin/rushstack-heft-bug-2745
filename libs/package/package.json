@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "heft test --clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jesse",
+  "license": "ISC",
+  "dependencies": {
+    "jose": "~3.12.3"
+  },
+  "devDependencies": {
+    "@rushstack/heft": "~0.32.0",
+    "ts-node": "~10.0.0",
+    "@rushstack/heft-node-rig": "~1.0.31",
+    "@rushstack/heft-jest-plugin": "~0.1.2"
+  }
+}
